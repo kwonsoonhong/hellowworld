@@ -3,7 +3,7 @@
 
 
 void master(void){
-	printf("MASTER !!!!\n");
+	printf("MARs !!!!\n");
 	{
 
 
