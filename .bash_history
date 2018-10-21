@@ -313,3 +313,79 @@ vi sigaction_test3.c
 gcc -o sigaction_test3 sigaction_test3.c
 ./sigaction_test3
 vi sigaction_test3.c
+ls
+mkdir middletest
+cd middletest
+git init
+git remote add origin https://github.com/kwonsoonhong/middletest.git
+touch 1.txt
+git add .
+git commit -m 
+git commit -m "test"
+git push origin master
+rm 1.txt
+cd ..
+ll
+cp -r *.c middletest
+cd middletest
+ll
+git add .
+git commit -m 
+git commit -m "middletest"
+git push 
+git push origin master
+cd ..
+vi manual.txt
+touch manual.txt
+git add .
+git commit -m "middletest"
+cd middletest
+git add.
+git add .
+touch manual.txt
+git reset
+git add .
+git commit -m "middletest"
+git push origin master
+vi manual.txt
+git commit -m "middletest"
+git push origin master
+vi manual.txt 
+git add .
+git commit -m "middletest"
+git push origin master
+ll
+cd ..
+mkdir test
+mkdir test2
+cd test2
+git pull https://github.com/kwonsoonhong/middletest.git
+ll
+git pull
+git pull origin master
+ll
+cd ..
+cd middletest
+ll
+cd ..
+ls
+ll
+clear
+ls
+vi sigactiom_test3.c
+vi sigaction_test3.c
+vi sigaction_test4.c
+cd middletest
+ls
+cp ../sigaction_test4.c . 
+ll
+git add .
+git commit -m "middletest"
+git push origin master
+git pull
+git pull origin master
+ls
+quit
+ll
+clear
+ls
